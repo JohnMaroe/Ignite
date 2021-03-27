@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/JohnMaroe/desafio01-ignite-todolist/main/.github/Background.png" width=650 />
 </p>
 
-# Ignite -
+# Ignite
 
 ### Front-end Bootcamp <br />
 Rocketseat's bootcamp is one of the biggest in all Latin America and inspires countless of developers to grow beyond their current level. <br />
