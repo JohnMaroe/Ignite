@@ -753,10 +753,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.1.tgz#9daf5745156fd84b8e9889a2dc721f0c58e894aa"
   integrity sha512-CAEbWH7OIur6jEOzaai83jq3FmKmv4PmX1JYfs9IrYcGEVI/lyL1EXJGCj7eFVJ0bg5QR8LMxBlEtA+xKiLpFw==
 
-"@hookform/resolvers@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.2.0.tgz#7337e2a942412749f1dc1187385b8ba0c3b20506"
-  integrity sha512-L9wExG8ap5rRfA1v1o1J9s1FuBgFzx6wG8/dEqLBvOUfdB1AteqXgCuCi8E/W6pGieuwVWH01PwbuVngtGgohA==
+"@hookform/resolvers@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.3.0.tgz#9412ab8644150b4056708fc129faa13979654674"
+  integrity sha512-G2NbU6EynBRQ4OFbePm6oYjU7KAOs9ym1sxl84Km7CPCFERfe+O350+xDYicCFGaPE3BuLZapuE/dgD853/5mg==
 
 "@miragejs/pretender-node-polyfill@^0.1.0":
   version "0.1.2"
@@ -2991,10 +2991,10 @@ react-focus-lock@2.5.0, react-focus-lock@^2.2.1:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
-react-hook-form@^7.0.5:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.0.5.tgz#33d4a437be78ca1fe86867ed937fe94b09c4bf9c"
-  integrity sha512-NERg22pjSa8URYfNhDhefGVODMTP4DMLlkK+bpuN4GUWKYIh/qiV4YmPuH8bfMAcXKj+bpdh6n7dB5B6jBs74Q==
+react-hook-form@^7.0.7:
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.0.7.tgz#16e39c0afc41c8263938c3602537db1d1f3b1131"
+  integrity sha512-PUiiEzAsLoO0hlO9Q3z/smDQ0mgPffL52QhLYvtjK11vDkXUgDc1l3ZXXvdeR4+VGwJNIuhl0bboFkhJN3E+Qg==
 
 react-icons@^4.2.0:
   version "4.2.0"

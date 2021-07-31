@@ -1,4 +1,4 @@
-import { createServer, Factory, Model, Response } from 'miragejs';
+import { createServer, Factory, Model, Response, ActiveModelSerializer } from 'miragejs';
 import faker from 'faker';
 
 type User = {
@@ -9,6 +9,10 @@ type User = {
 
 export function makeServer() {
   const server = createServer({
+    serializers: {
+      application: ActiveModelSerializer,
+    },
+    
     models: {
       user: Model.extend<Partial<User>>({}) // <Partial>, não necessita ter todas as tipagens.
     },
@@ -53,6 +57,7 @@ export function makeServer() {
         )
       }); // Entende que quando chamar a rota, deve pegar a lista completa de users
 
+      this.get('/users/:id');
       this.post('/users'); // Cria automaticamente um novo user, passando os dados corretos
 
       this.namespace = ''; // Volta para nada, pois assim não interfere nas rotas do Next

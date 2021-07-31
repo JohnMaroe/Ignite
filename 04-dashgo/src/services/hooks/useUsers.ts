@@ -43,6 +43,6 @@ export async function getUsers(page: number): Promise<GetUsersResponse> {
 
 export function useUsers(page: number) {
   return useQuery(['users', page], () => getUsers(page), { // 3° parâmetro, determina o tempo que considera os dados como frescos
-    staleTime: 1000 * 5, // 5 segundos
+    staleTime: 1000 * 60 * 10, // 10 minutes
   });
 }
